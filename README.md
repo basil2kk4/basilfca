@@ -19,11 +19,11 @@ Lưu Ý ! Nếu Bạn Muốn Sài Api Này Hãy Xem Document Tại [Đây Nè](h
 
 Nếu Bạn Muốn Sử Dụng, Hãy Tải Nó Bằng Cách:
 ```bash
-npm i fca-huykaiser-remake
+npm i basilfca
 ```
 or
 ```bash
-npm install fca-huykaiser-remake
+npm install basilfca
 ```
 
 Nó Sẽ Tải Vô node_modules (Lib Của Bạn) - Lưu Ý Replit Sẽ Không Hiện Đâu Mà Tìm 😪
@@ -32,7 +32,7 @@ Nó Sẽ Tải Vô node_modules (Lib Của Bạn) - Lưu Ý Replit Sẽ Không H
 
 Nếu Bạn Muốn Sử Dụng Phiên Bản Mới Nhất Hay Cập Nhật Thì Hãy Vô Terminal Hoặc Command Promt Nhập :
 ```bash
-npm install fca-huykaiser-remake@latest
+npm install basilfca@latest
 ```
 Hoặc
 ```bash
@@ -47,7 +47,7 @@ Hãy Sử Dụng Với Tài Khoản Thử Nghiệm => [Facebook Whitehat Account
 ## Cách Sử Dụng
 
 ```javascript
-const login = require("fca-huykaiser-remake"); // lấy từ lib ra 
+const login = require("basilfca"); // lấy từ lib ra 
 
 // đăng nhập
 login({email: "Gmail Account", password: "Mật Khẩu Facebook Của Bạn"}, (err, api) => {
@@ -87,7 +87,7 @@ Bạn Cần Vô File Mirai.js,Sau Đó Tìm Đến Dòng
 Và Thay Nó Bằng:
 
 ```js
-    var login = require('fca-huykaiser-remake')
+    var login = require('basilfca')
 ```
 
 Sau Đó Thì Chạy Bình Thường Thôi  !
@@ -108,7 +108,7 @@ __Hướng Dẫn Với Appstate__
 
 ```js
 const fs = require("fs");
-const login = require("fca-huykaiser-remake");
+const login = require("basilfca");
 
 var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // thông tin tk
 
