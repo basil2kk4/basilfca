@@ -22,7 +22,7 @@
     "aes-js": "demo",
     "assert": "demo",
     "bluebird": "demo",
-    "chalk": "4.1.2",
+    "chalk": "5.2.0",
     "cheerio": "demo",
     "crypto": "demo",
     "crypto-js": "demo",
