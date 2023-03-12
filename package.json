@@ -1,0 +1,92 @@
+{
+  "name": "BOTbasil",
+  "version": "8.4.0",
+  "description": "Facebook Chat Api ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "./node_modules/.bin/eslint **.js",
+    "prettier": "prettier utils.js src/* --write"
+  },
+  "author": "BASIL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lam86755/BOTbasil/issues"
+  },
+  "homepage": "https://github.com//lam86755/BOTbasil#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lam86755/BOTbasil.git"
+  },
+  "dependencies": {
+    "aes-js": "demo",
+    "assert": "demo",
+    "bluebird": "demo",
+    "chalk": "4.1.2",
+    "cheerio": "demo",
+    "crypto": "demo",
+    "crypto-js": "demo",
+    "express": "demo",
+    "file-url": "^3.0.0",
+    "got": "^11.8.3",
+    "https-proxy-agent": "demo",
+    "is-hexcolor": "^1.0.0",
+    "jsdom": "^20.0.3",
+    "lodash": "",
+    "mqtt": "demo",
+    "npmlog": "demo",
+    "os": "demo",
+    "path": "demo",
+    "pretty-ms": "7.0.1",
+    "readline": "demo",
+    "request": "demo",
+    "totp-generator": "demo",
+    "tough-cookie": "^4.1.2",
+    "uuid-apikey": "demo",
+    "websocket-stream": "demo",
+    "node-fetch": "2.6.0",
+    "better-sqlite3": "7.4.5",
+    "sqlite3": "5.0.3",
+    "sqlite": "4.0.21"
+  },
+  "engines": {
+    "node": ">=14.x <16.x"
+  },
+  "devDependencies": {
+    "eslint": "demo",
+    "mocha": "demo",
+    "prettier": "demo"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  },
+  "keywords": [
+    "basil",
+    "BOTbasil",
+    "bot",
+    "fb"
+  ]
+}
