@@ -27,7 +27,7 @@
     "crypto": "demo",
     "crypto-js": "demo",
     "express": "demo",
-    "file-url": "^3.0.0",
+    "file-url": "^4.0.0",
     "got": "^11.8.3",
     "https-proxy-agent": "demo",
     "is-hexcolor": "^1.0.0",
