@@ -31,7 +31,7 @@
     "got": "^11.8.3",
     "https-proxy-agent": "demo",
     "is-hexcolor": "^1.0.0",
-    "jsdom": "^20.0.3",
+    "jsdom": "^21.1.2",
     "lodash": "",
     "mqtt": "demo",
     "npmlog": "demo",
